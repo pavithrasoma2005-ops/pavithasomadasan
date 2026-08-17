@@ -1,21 +1,23 @@
 # Password Strength Checker
 
 ## What it does
-[Your sentence here — e.g. "This tool checks if a password is strong 
-enough and tells you what to improve."]
+This is a simple Python tool that checks how strong a password is and gives suggestions to improve it.
 
 ## How it works
-[Explain in your own words what the script checks for — e.g. 
-"It looks at the length of the password, whether it has uppercase 
-and lowercase letters, numbers, and special characters. Based on 
-how many checks pass, it gives a strength rating."]
+The script checks a password against five criteria:
+- Is it at least 8 characters long?
+- Does it contain an uppercase letter?
+- Does it contain a lowercase letter?
+- Does it contain a number?
+- Does it contain a special character (like !@#$%)?
+
+Based on how many of these checks pass, the password is rated from "Very Weak" to "Very Strong," and the tool prints specific tips for anything that's missing.
 
 ## How to run it
-1. Make sure Python is installed
+1. Make sure Python is installed on your system
 2. Download `password_checker.py`
-3. Run this command in terminal:
-4. Enter a password when prompted
+3. Open a terminal and run:
+4. Enter a password when prompted to see its strength rating
 
 ## What I learned
-[Optional but good — e.g. "I learned how regular expressions (regex) 
-work to search for patterns in text."]
+Working on this helped me understand how regular expressions (regex) can be used to search for patterns in text, like checking for specific character types in a string.
